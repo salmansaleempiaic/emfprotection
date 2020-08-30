@@ -63,6 +63,7 @@ a{
   display: block;
   opacity: 0.4;
   padding: 1rem;
+  color: #6CB8B0;
 }
 .header-navbar a:hover{
   color: white;
