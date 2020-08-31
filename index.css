@@ -256,6 +256,7 @@ a{
   .main-content{
     position: relative;
     top: -200px;
+    margin-bottom: 5rem;
   }
   .main{
     margin-top: 5.53rem;
