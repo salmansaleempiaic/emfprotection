@@ -72,6 +72,7 @@ a{
 
 /* Main */
 .main{
+  z-index: -1;
   display: flex;
   margin: 2rem;
   align-items: center;
@@ -82,6 +83,8 @@ a{
   margin: 2rem;
   line-height: 1.4;
   animation: fromleft 1s ease-in-out;
+  position: relative;
+    top: -200px;
 }
 .image-1{
   animation: fromright 1s ease-in-out;
