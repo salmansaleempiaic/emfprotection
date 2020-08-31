@@ -83,8 +83,8 @@ a{
   margin: 2rem;
   line-height: 1.4;
   animation: fromleft 1s ease-in-out;
-  position: relative;
-    top: -200px;
+  /* position: relative;
+    top: -200px; */
 }
 .image-1{
   animation: fromright 1s ease-in-out;
@@ -251,6 +251,18 @@ a{
 
   }
 /* End SideNav CSS */
+
+@media only screen and (min-width: 750px) {
+  .main-content{
+    position: relative;
+    top: -200px;
+  }
+  .main{
+    margin-top: 5.53rem;
+  }
+}
+
+
 @media only screen and (min-width: 985px) {
     .header-nav-bars{
         display: none;
@@ -279,7 +291,11 @@ a{
     .header-navbar{
         display: none;
     }
-
+  }
+  @media only screen and (max-width: 1190px) {
+    .header-text{
+      line-height: 0.9;
+    }
   }
   @media only screen and (min-width: 1658px) {
     .image-5,.image-6{
